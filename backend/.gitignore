@@ -1,0 +1,9 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+datasets/images/*
+!datasets/images/.gitkeep
+train_venv/
+training/models/

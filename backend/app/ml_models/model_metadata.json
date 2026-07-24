@@ -1,0 +1,33 @@
+{
+    "classes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y"
+    ],
+    "input_dim": 63,
+    "normalization": "Translation (relative to wrist) and Scale (distance from wrist to mid MCP)",
+    "training_date": "2026-07-03T12:41:08.664248",
+    "test_accuracy": 0.9601989984512329,
+    "tf_version": "2.21.0"
+}

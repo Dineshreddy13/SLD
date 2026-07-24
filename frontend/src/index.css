@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+  --color-border: var(--border);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-accent-signal: var(--accent-signal);
+  --color-accent-warm: var(--accent-warm);
+}
+
+/* Base styles for Light Mode (Default) */
+:root {
+  --bg: #F5F6FB;
+  --surface: #FFFFFF;
+  --surface-raised: #ECEEFA;
+  --border: #DCDFF0;
+  --text-primary: #1A1B2E;
+  --text-secondary: #5B5F7A;
+  --accent-signal: #6366F1;
+  --accent-warm: #F59E0B;
+}
+
+/* Dark Mode (Toggle) */
+:root.dark {
+  --bg: #0D0E1F;
+  --surface: #14162A;
+  --surface-raised: #1C1F3A;
+  --border: #2A2E52;
+  --text-primary: #EDEEFB;
+  --text-secondary: #9497C4;
+  --accent-signal: #818CF8;
+  --accent-warm: #FBBF24;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
