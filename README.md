@@ -1,7 +1,5 @@
 # SignDetect (SLD)
 
-![SignDetect](https://raw.githubusercontent.com/Dineshreddy13/SLD/master/frontend/public/logo.png)
-
 Real-time, AI-powered American Sign Language (ASL) translation dashboard — a full-stack demo combining a Python/FastAPI backend (MediaPipe + ML inference) with a Vite + React frontend and lightweight TTS.
 
 ---
